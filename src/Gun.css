@@ -1,0 +1,27 @@
+.Gun {
+    display: flex;
+    gap: .5rem;
+}
+
+.GunBuyButton {
+    background-color: #E3627D;
+    color: white;
+    cursor: pointer;
+}
+
+.GunSellButton {
+    background-color: #47C5D8;
+    color: white;
+    cursor: pointer;
+}
+
+.GunCancelButton {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.GunButtonDisabled {
+    background-color: grey;
+    color: darkgrey;
+}

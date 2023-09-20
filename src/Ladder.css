@@ -1,0 +1,70 @@
+.Ladder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Bids {
+    position: relative;
+    display: grid;
+    direction: rtl;
+}
+
+.Asks {
+    position: relative;
+    display: grid;
+}
+
+.Price {
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 .5rem;
+    background: black;
+    color: white;
+    text-align: center;
+    background: var(--primary-color);
+}
+
+.Order {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    border: solid 1px var(--background);
+}
+
+.Bid {
+    background: #E3627D;
+}
+
+.Bid:hover {
+    background: #B53952;
+}
+
+.Ask {
+    background: #47C5D8;
+}
+.Ask:hover {
+    background: #238D9D;
+}
+
+.CumAsk {
+    background: #29727D;
+}
+.CumBid {
+    background: #793845;
+}
+
+.LevelQuantityOverlay {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.LevelQuantityOverlayAsk {
+    right: 5px;
+}
+.LevelQuantityOverlayBid {
+    left: 5px;
+}

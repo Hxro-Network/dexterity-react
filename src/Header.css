@@ -1,0 +1,32 @@
+.Header {
+    background: var(--primary-color);
+    color: white;
+}
+.HeaderFirstRow {
+    background: var(--background);
+    font-size: 0.77rem;
+    text-align: center;
+    align-items: center;
+}
+.HeaderSecondRow {
+    padding: .5rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.HeaderRow {
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    align-items: center;
+}
+
+.OpenOrder {
+    padding: 0.5rem;
+    box-shadow: 1px 1px 10px black;
+    display: grid;
+    gap: 0.33rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}

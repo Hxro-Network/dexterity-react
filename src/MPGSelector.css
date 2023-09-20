@@ -1,0 +1,8 @@
+.MPGSelector {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.MPGSelector select {
+    width: fit-content;
+}

@@ -1,0 +1,15 @@
+.Pubkey {
+    display: flex;
+    gap: .25rem;
+    margin: 0;
+    padding: .5rem .75rem;
+    max-width: 100%;
+    background: var(--background);
+    border: 0;
+    border-radius: 0rem;
+    font: inherit;
+    line-height: inherit;
+    line-height: 1.125;
+    color: white;
+    width: fit-content;
+}

@@ -1,0 +1,53 @@
+.Book {
+    width: 433px;
+}
+
+.BookTitleBar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: .5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background: var(--primary-color);
+    padding-bottom: .25rem;
+    border: solid 1px var(--background);
+    border-top: none;
+    border-bottom: none;
+}
+.sr-only {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.BookTitle {
+    font-weight: bold;
+}
+
+details {
+    cursor: pointer;
+}
+
+.BookTitlePrice {
+    font-family: "Source Code Pro", monospace;
+}
+
+.BookDetails {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: var(--primary-color);
+    border: solid 1px var(--background);
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    align-items: center;
+    font-family: "Source Code Pro", monospace;
+    padding: .25rem 0;
+    gap: .25rem;
+}
